@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    .img1 {
+        height: 5vh;
+    }
+
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-block: 10px;
+}
+
+.cart {
+    .img2 {
+        height: 3vh;
+    }
+
+    .p1 {
+        padding-top: 4px;
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    display: flex;
+}
+
+.hero_image {
+    display: flex;
+    margin-bottom: 12vh;
+    background-image: url(assets/kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 44vh;
+    padding: 5vw;
+
+
+}
+
+.hero_image {
+    h1 {
+        font-size: 15mm;
+    }
+
+    p {
+        font-size: 6mm;
+    }
+}
+
+p {
+    b {
+        font-size: 5.4mm;
+    }
+
+    margin-bottom: 8px;
+}
+
+.books_showcase {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 4vw;
+    padding-block: 20px;
+    margin-bottom: 10vh;
+
+    img {
+        height: 30vh;
+    }
+}
+
+h3 {
+    padding-left: 4vw
+}
+
+.price {
+    display: flex;
+    font-weight: 1000;
+    justify-content: space-between;
+
+    .buy_button {
+        background-color: #6C95F3;
+        display: flex;
+        padding-inline: 9px;
+        padding-top: 6px;
+        border-radius: 7%;
+
+        p {
+            color: white;
+        }
+
+        img {
+            height: 2.5vh;
+        }
+    }
+}
+
+.games_showcase {
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 4vw;
+    padding-block: 20px;
+    gap: 5vw;
+
+    img {
+        height: 30vh;
+    }
+}
+
+.h3 {
+    h3 {
+        margin-top: 8vh;
+    }
+}
+
+.handmade_showcase {
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 4vw;
+    padding-block: 20px;
+    gap: 5vw;
+    margin-bottom: 8vh;
+
+    img {
+        height: 30vh;
+    }
+}
