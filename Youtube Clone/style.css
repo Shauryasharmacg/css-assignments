@@ -1,6 +1,235 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #181818;
+}
+
+.parent {
+    display: flex;
+
+    .navbar {
+        height: 8vh;
+        width: 79vw;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(105, 105, 105);
+        margin-left: 1vw;
+
+        .fullbar {
+            display: flex;
+            margin-left: 10vw;
+            border: 2px solid #303030;
+
+            .searchbutton {
+                background-color: #303030;
+                padding-top: 0.86vh;
+                padding-inline: 1.3vw;
+
+                .sbtn {
+                    width: 1.8vw;
+                }
+            }
+
+            .searchbar {
+                display: flex;
+                align-items: center;
+                padding-left: 1vw;
+                height: 5vh;
+                width: 34.5vw;
+
+                .search {
+                    height: 100%;
+                    width: 100%;
+                    background-color: #181818;
+                    border: none;
+                    color: rgb(204, 203, 203);
+                    font-size: 1.8vh;
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .mic {
+        height: 3.8vh;
+        margin-left: 1vw;
+    }
+
+    .navcontent {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1vw;
+        margin-right: 1vw;
+
+        .items {
+            width: 2.2vw;
+        }
+    }
+
+    .sidebar {
+        padding-block: 1vh;
+        width: 20vw;
+        height: 100vh;
+        background-color: #212121;
+        overflow-y: scroll;
+        scrollbar-width: none;
+
+        .line1 {
+            padding-left: 1.5vw;
+
+            .ham {
+                width: 2.5vh;
+                margin-top: 2vh;
+            }
+
+            .logo {
+                width: 12vh;
+                margin-left: 1vw;
+            }
+        }
+
+        .home {
+            display: flex;
+            background-color: #383838;
+            padding-left: 1.5vw;
+            margin-right: 2vw;
+            margin-top: 4.5vh;
+            padding-block: 1vh;
+
+            p {
+                color: white;
+                font-size: 1.8vh;
+                font-weight: 400;
+                margin-left: 1.5vw;
+                margin-top: 0.3vh;
+            }
+
+            .hmlogo {
+                width: 1.8vw;
+            }
+
+        }
+
+        .type1 {
+            display: flex;
+            padding-left: 1.5vw;
+            margin-right: 2vw;
+            padding-block: 1vh;
+
+            p {
+                color: #bbbaba;
+                font-size: 1.8vh;
+                font-weight: 400;
+                margin-left: 1.5vw;
+                margin-top: 0.2vh;
+            }
+
+            .eplogo {
+                width: 1.8vw;
+            }
+
+        }
+
+        .type2 {
+            display: flex;
+            padding-left: 1.5vw;
+            margin-right: 2vw;
+            padding-block: 1vh;
+            padding-bottom: 2vh;
+            border-bottom: 2px solid rgb(65, 64, 64);
+
+            p {
+                color: #bbbaba;
+                font-size: 1.8vh;
+                font-weight: 400;
+                margin-left: 1.5vw;
+                margin-top: 0.2vh;
+            }
+
+            .eplogo {
+                width: 1.8vw;
+            }
+
+        }
+
+        .type3 {
+            display: flex;
+            padding-left: 1.5vw;
+            margin-right: 2vw;
+            padding-block: 1vh;
+            padding-top: 2vh;
+
+            p {
+                color: #bbbaba;
+                font-size: 1.8vh;
+                font-weight: 400;
+                margin-left: 1.5vw;
+                margin-top: 0.2vh;
+            }
+
+            .eplogo {
+                width: 1.8vw;
+            }
+
+        }
+
+        .type4 {
+            padding-block: 1.5vh;
+
+            p {
+                color: #bbbaba;
+                font-size: 1.8vh;
+                font-weight: 500;
+                margin-left: 1.5vw;
+            }
+        }
+    }
+
+    .whole_page {
+        .navbar2 {
+            border-bottom: 1px solid rgb(105, 105, 105);
+            margin-left: 1vw;
+            padding-block: 1vh;
+            display: flex;
+            justify-content: space-evenly;
+            width: 79vw;
+            height: 7vh;
+
+            .btntype1 {
+                background-color: white;
+                border-radius: 10vw;
+                display: flex;
+                align-items: center;
+                width: auto;
+                padding-inline: 1.5vw;
+            }
+
+            .btntype2 {
+                background-color: #383838;
+                border-radius: 10vw;
+                display: flex;
+                align-items: center;
+                width: auto;
+                padding-inline: 1vw;
+
+                p {
+                    color: white;
+                    font-size: 3.8mm;
+                }
+            }
+        }
+        .ytpge{
+            border: 2px solid white;
+            display: flex;
+            height: 20vh;
+            width: 80vw;
+        }
+
+    }
 }
